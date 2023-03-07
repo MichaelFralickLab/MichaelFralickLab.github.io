@@ -3,7 +3,7 @@ console.log('starting team.js script');
 // creates an icon of a given type for a given url; relies on icon image files!!
 const CurriedIcon = (type) => {
   const icon = `<img
-                    src='/images/icon/${type}.png'
+                    src='./images/icon/${type}.png'
                     height='30px'
                     style='fill: rgb(14, 123, 247); opacity: 50%'
                   />`;
@@ -32,7 +32,7 @@ function TeamMemberCard(member, index) {
         <div class="team-card" key=${index}>
             <div
                 class="team-card-image"
-                style="background-image: url('images/team/${member.image}')"
+                style="background-image: url('./images/team/${member.image}')"
                 data-image-width="750"
                 data-image-height="1125">
             </div>

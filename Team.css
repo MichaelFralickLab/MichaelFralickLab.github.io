@@ -121,7 +121,7 @@ body {
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)
     ),
-    url('images/banner/team-photo.jpeg');
+    url('./images/banner/team-photo.jpeg');
   background-position: 50% 50%;
 }
 

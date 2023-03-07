@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url('images/stock/stock_phone.jpeg');
+    url('./images/stock/stock_phone.jpeg');
   background-position: 50% 50%;
 }
 
