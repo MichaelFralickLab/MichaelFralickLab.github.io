@@ -1,9 +1,80 @@
+:root {
+  --cardWidth: 450px;
+  --cardHeight: 580px;
+  --cardMargin: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  width: 100%;
+}
+
+#team-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background: #bbb; */
+  align-items: center;
+  align-self: center;
+  margin: auto;
+}
+
+.team-card {
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  margin: var(--cardMargin);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
 .team-card-image {
+  object-fit: cover;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   width: 290px;
   height: 290px;
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 50% !important;
   margin: 0 auto;
+}
+
+.team-card-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.team-card-name {
+  padding: 1rem;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.team-card-aspiration {
+  text-align: center;
+}
+
+.team-card-pronouns {
+  font-size: 1rem;
+  display: inline;
 }
 
 .hero {
@@ -14,10 +85,6 @@
     ),
     url('images/banner/team-photo.jpeg');
   background-position: 50% 50%;
-}
-
-.hero .util-sheet {
-  min-height: 847px;
 }
 
 .hero .page-title {
@@ -32,19 +99,14 @@
   margin: 9px auto 60px;
 }
 
+.hero .util-sheet {
+  min-height: 847px;
+}
+
 /*! MEDIA  QUERIES need fixing ...*/
 @media (max-width: 1199px) {
   .hero .util-sheet {
     min-height: 698px;
-  }
-
-  .hero .page-title {
-    --animation-custom_in-scale: 0.3;
-  }
-
-  .hero .page-title {
-    animation-duration: 1000ms;
-    --animation-custom_in-scale: 0.3;
   }
 }
 

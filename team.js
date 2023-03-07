@@ -19,23 +19,23 @@ function TeamMemberCard(member, index) {
   return `
           <div class="team-card" key=${index}>
             <div
-                class="u-image u-image-circle team-card-image"
-                style="background-image: url('images/team/${member.image}.png')"
+                class="team-card-image"
+                style="background-image: url('images/team/${member.image}')"
                 data-image-width="750"
                 data-image-height="1125">
             </div>
-            <h5 class="u-align-center u-custom-font u-text u-text-5">
+            <h5 class="team-card-name u-text-variant">
                 ${member.name}
-                <span style="font-size: 0.875rem">(${member.pronouns})</span>
+                <span class="team-card-pronouns">(${member.pronouns})</span>
             </h5>
-            <p class="u-align-center u-custom-font u-text u-text-6">
-                ${member.position}
+            <p class="team-card-text u-text-variant">
+               <b> ${member.position}</b>
             </p>
-            <p class="u-align-center u-custom-font u-text u-text-7">
+            <p class="team-card-text u-text-variant">
                 ${member.education}
             </p>
-            <p class="u-align-center u-custom-font u-text u-text-8">
-                <span style="font-weight: 700">Aspirations:&nbsp;</span>
+            <p class="team-card-text u-text-variant">
+                <b>Aspirations:&nbsp;</b>
                 ${member.aspirations}
                 <br />
             </p>
@@ -45,11 +45,10 @@ function TeamMemberCard(member, index) {
 
 let usersContainer = document.getElementById('team-container');
 
+// read data from file asynchronously...
 fetch('/public/team.json')
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
+  .then((response) => response.json())
+  .then((data) => {
     console.log('data', data);
     const cards = data.map((member, index) => TeamMemberCard(member, index));
     console.log(cards);
