@@ -1,5 +1,5 @@
 function TwitterIcon(link) {
-  return `<a href=${link} class="team-card-icon">
+  return `<a ref=${link} class="team-card-icon">
             <img
                 src='/images/icon/twitter.png'
                 height='30px'
@@ -56,23 +56,23 @@ function TeamMemberCard(member, index) {
         let linkIcon;
         switch (type) {
           case 'twitter':
-            linkIcon = TwitterIcon(type);
+            linkIcon = TwitterIcon(linkURL);
             break;
           case 'github':
-            linkIcon = GithubIcon(type);
+            linkIcon = GithubIcon(linkURL);
             break;
           case 'linkedin':
-            linkIcon = LinkedInIcon(type);
+            linkIcon = LinkedInIcon(linkURL);
             break;
           case 'website':
-            linkIcon = WebIcon(type);
+            linkIcon = WebIcon(linkURL);
             break;
           default:
-            linkIcon = DocIcon(type);
+            linkIcon = DocIcon(linkURL);
         }
         return linkIcon;
       })
-      .join();
+      .join('');
     console.log(socialLinks);
   }
 
