@@ -1,48 +1,15 @@
-function TwitterIcon(link) {
-  return `<a ref=${link} class="team-card-icon">
-            <img
-                src='/images/icon/twitter.png'
-                height='30px'
-                style='fill: rgb(14, 123, 247); opacity: 50%'
-            />
-          </a>`;
-}
-function LinkedInIcon(link) {
-  return `<a href=${link} class="team-card-icon">
-            <img
-                src='/images/icon/linkedin.png'
-                height='30px'
-                style='fill: rgb(14, 123, 247); opacity: 50%'
-            />
-          </a>`;
-}
-function GithubIcon(link) {
-  return `<a href=${link} class="team-card-icon">
-            <img
-                src='/images/icon/github.png'
-                height='30px'
-                style='fill: rgb(14, 123, 247); opacity: 50%'
-            />
-          </a>`;
-}
-function WebIcon(link) {
-  return `<a href=${link} class="team-card-icon">
-            <img
-                src='/images/icon/website.png'
-                height='30px'
-                style='fill: rgb(14, 123, 247); opacity: 50%'
-            />
-          </a>`;
-}
-function DocIcon(link) {
-  return `<a href=${link} class="team-card-icon">
-            <img
-                src='/images/icon/publication.png'
-                height='30px'
-                style='fill: rgb(14, 123, 247); opacity: 50%'
-            />
-          </a>`;
-}
+// creates an icon of a given type for a given url; relies on icon image files!!
+const CurriedIcon = (type) => {
+  const icon = `<img
+                    src='/images/icon/${type}.png'
+                    height='30px'
+                    style='fill: rgb(14, 123, 247); opacity: 50%'
+                  />`;
+
+  return (link) => {
+    return `<a href=${link} class="team-card-icon">${icon}</a>`;
+  };
+};
 
 // template for team member card
 function TeamMemberCard(member, index) {
@@ -51,29 +18,11 @@ function TeamMemberCard(member, index) {
     const socialNames = Object.keys(member.social);
     socialLinks = socialNames
       .map((type) => {
-        let linkURL = member.social[type];
-        console.log('linkURL', linkURL);
-        let linkIcon;
-        switch (type) {
-          case 'twitter':
-            linkIcon = TwitterIcon(linkURL);
-            break;
-          case 'github':
-            linkIcon = GithubIcon(linkURL);
-            break;
-          case 'linkedin':
-            linkIcon = LinkedInIcon(linkURL);
-            break;
-          case 'website':
-            linkIcon = WebIcon(linkURL);
-            break;
-          default:
-            linkIcon = DocIcon(linkURL);
-        }
+        const linkURL = member.social[type];
+        const linkIcon = CurriedIcon(type)(linkURL);
         return linkIcon;
       })
       .join('');
-    console.log(socialLinks);
   }
 
   //* string-interpolate data into an html-template with styling from team.css
@@ -96,13 +45,10 @@ function TeamMemberCard(member, index) {
                 ${member.education}
             </p>
             <p class="team-card-text u-text-variant">
-                <b>Aspirations:&nbsp;</b>
+                <span style="color: #7b7b7b;">Aspirations:&nbsp;</span>
                 ${member.aspirations}
-                <br />
             </p>
-            <div class='team-card-links'>
-                ${socialLinks}
-            </div>
+            <div class='team-card-links'>${socialLinks}</div>
         </div>
         `;
 }

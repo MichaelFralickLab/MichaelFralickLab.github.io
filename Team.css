@@ -1,7 +1,7 @@
 :root {
   /* sets the sizes for the team member cards */
   --cardWidth: 450px;
-  --cardHeight: 625px;
+  --cardHeight: 605px;
   --cardMargin: 1rem;
 }
 
@@ -28,10 +28,10 @@ body {
 
 .team-card {
   width: var(--cardWidth);
-  height: auto;
+  /* height: auto; */
   height: var(--cardHeight);
   margin: var(--cardMargin);
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 8px;
   background: #fff;
   box-sizing: border-box;
@@ -59,20 +59,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
   text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 0rem;
+  margin: auto;
+  padding: 0.25rem;
 }
 .team-card-position {
-  font-weight: 700;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-weight: 600;
   color: #7b7b7b;
 }
 
 .team-card-name {
-  padding: 1rem;
+  margin-top: 2rem;
+  padding: 0.15rem;
   text-align: center;
   font-size: xx-large;
 }
@@ -92,10 +89,32 @@ body {
   align-items: center;
   justify-items: auto;
   width: fit-content;
+  position: relative;
+  justify-self: end;
+  max-height: max-content;
 }
+
 .team-card-icon {
-  padding: 0.25rem;
+  /* outline: 2px; */
+  padding-left: 0.25rem;
+  padding-top: 0.25rem;
+  padding-right: 0.15rem;
+  border-width: 20px;
+  border-color: black;
+  margin-top: 1rem;
+  /* border-radius: 20%;
+  border-width: 20px;
+  border-color: black; */
 }
+
+.team-card-icon:hover {
+  margin-top: 0.5rem;
+  /* border-radius: 20%; */
+  /* border-width: 20px; */
+  /* border-color: black; */
+  box-shadow: 0 0 24px 0 rgba(11, 97, 196, 0.596);
+}
+
 .hero {
   background-image: linear-gradient(
       0deg,
