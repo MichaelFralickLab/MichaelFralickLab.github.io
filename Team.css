@@ -1,3 +1,24 @@
+.team-image {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+  background-position: 50% 50%;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  background-color: #ff0000;
+  line-height: 180px;
+  font-size: 0;
+  text-align: center;
+}
+
+.team-image img {
+  position: relative;
+  margin: auto;
+  vertical-align: middle;
+}
+
 .u-section-1 {
   background-image: linear-gradient(
       0deg,
@@ -32,6 +53,7 @@
   margin: 9px auto 60px;
 }
 
+/*! MEDIA  QUERIES need fixing ...*/
 @media (max-width: 1199px) {
   .u-section-1 .util-sheet {
     min-height: 698px;
@@ -1679,7 +1701,7 @@
   padding: 0 11px;
 }
 
-.u-section-7 .u-image-1 {
+.tam-image {
   width: 290px;
   height: 290px;
   background-image: url('images/team/Tam.jpg');
