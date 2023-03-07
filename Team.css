@@ -1,9 +1,14 @@
- .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/team-photo.jpeg");
+.u-section-1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url('images/team-photo.jpeg');
   background-position: 50% 50%;
 }
 
-.u-section-1 .u-sheet-1 {
+.u-section-1 .util-sheet {
   min-height: 847px;
 }
 
@@ -28,7 +33,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
+  .u-section-1 .util-sheet {
     min-height: 698px;
   }
 
@@ -43,26 +48,27 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
+  .u-section-1 .util-sheet {
     min-height: 535px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
+  .u-section-1 .util-sheet {
     min-height: 401px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
+  .u-section-1 .util-sheet {
     min-height: 252px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
   }
-}.u-section-2 .u-sheet-1 {
+}
+.u-section-2 .util-sheet {
   min-height: 651px;
 }
 
@@ -73,7 +79,9 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns:
+    calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+    calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 517px;
 }
@@ -85,33 +93,33 @@
 .u-section-2 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/AfsanehRaissi-AfsanehRaissi.jpg");
+  background-image: url('images/Afsaneh.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-2 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-2 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-2 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-2 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -141,33 +149,33 @@
 .u-section-2 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url("images/AshleyRaudanskisHeadShot-AshleyRaudanskis.jpg");
+  background-image: url('images/Ashley.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-2 .u-text-5 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-2 .u-text-6 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-2 .u-text-7 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-2 .u-text-8 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -197,33 +205,33 @@
 .u-section-2 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url("images/1651434802577.jfif");
+  background-image: url('images/1651434802577.jfif');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-2 .u-text-9 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-2 .u-text-10 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-2 .u-text-11 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-2 .u-text-12 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -247,7 +255,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
+  .u-section-2 .util-sheet {
     min-height: 553px;
   }
 
@@ -374,7 +382,8 @@
   .u-section-2 .u-text-10 {
     margin-top: 9px;
   }
-}.u-section-3 .u-sheet-1 {
+}
+.u-section-3 .util-sheet {
   min-height: 651px;
 }
 
@@ -385,7 +394,9 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns:
+    calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+    calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 517px;
 }
@@ -397,33 +408,33 @@
 .u-section-3 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/EmilyHughes-CaRMSPhoto1.jpg");
+  background-image: url('images/Emily.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-3 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-3 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-3 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-3 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -453,33 +464,33 @@
 .u-section-3 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url("images/HaniaSiddiquiHeadshot.jpg");
+  background-image: url('images/Hania.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-3 .u-text-5 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-3 .u-text-6 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-3 .u-text-7 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-3 .u-text-8 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -509,33 +520,33 @@
 .u-section-3 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url("images/HK-Headshot-HannaKe.png");
+  background-image: url('images/HK-Headshot-HannaKe.png');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-3 .u-text-9 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 22px 0 0;
 }
 
 .u-section-3 .u-text-10 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   margin: 9px 22px 0;
 }
 
 .u-section-3 .u-text-11 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0;
 }
 
 .u-section-3 .u-text-12 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 12px 0 0;
 }
@@ -559,7 +570,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 .u-sheet-1 {
+  .u-section-3 .util-sheet {
     min-height: 553px;
   }
 
@@ -686,7 +697,8 @@
   .u-section-3 .u-text-10 {
     margin-top: 9px;
   }
-}.u-section-4 .u-sheet-1 {
+}
+.u-section-4 .util-sheet {
   min-height: 658px;
 }
 
@@ -697,7 +709,9 @@
 }
 
 .u-section-4 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns:
+    calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+    calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 517px;
 }
@@ -714,34 +728,34 @@
 .u-section-4 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/profile-JackN.png");
+  background-image: url('images/profile-JackN.png');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-4 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 20px 0 0;
 }
 
 .u-section-4 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 270px;
   margin: 12px auto 0;
 }
 
 .u-section-4 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 18px;
 }
 
 .u-section-4 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 0 0;
 }
@@ -776,34 +790,34 @@
 .u-section-4 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url("images/Jason-JasonMoggridge.jpg");
+  background-image: url('images/Jason-JasonMoggridge.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-4 .u-text-5 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 20px 0 0;
 }
 
 .u-section-4 .u-text-6 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 270px;
   margin: 12px auto 0;
 }
 
 .u-section-4 .u-text-7 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 18px;
 }
 
 .u-section-4 .u-text-8 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 0 0;
 }
@@ -838,34 +852,34 @@
 .u-section-4 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url("images/john2.1copy-JohnLapp.png");
+  background-image: url('images/john2.1copy-JohnLapp.png');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-4 .u-text-9 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 20px 0 0;
 }
 
 .u-section-4 .u-text-10 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 270px;
   margin: 12px auto 0;
 }
 
 .u-section-4 .u-text-11 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 18px;
 }
 
 .u-section-4 .u-text-12 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 0 0;
 }
@@ -1032,7 +1046,8 @@
   .u-section-4 .u-text-10 {
     margin-top: 12px;
   }
-}.u-section-5 .u-sheet-1 {
+}
+.u-section-5 .util-sheet {
   min-height: 602px;
 }
 
@@ -1042,7 +1057,9 @@
 }
 
 .u-section-5 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns:
+    calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+    calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 517px;
 }
@@ -1059,34 +1076,34 @@
 .u-section-5 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/MikeColacci_2021Mar_MR-9546.jpg");
+  background-image: url('images/MikeColacci_2021Mar_MR-9546.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-5 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 14px 30px 0;
 }
 
 .u-section-5 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 16px auto 0;
 }
 
 .u-section-5 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 30px;
 }
 
 .u-section-5 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 14px 0;
 }
@@ -1115,34 +1132,34 @@
 .u-section-5 .u-image-4 {
   width: 290px;
   height: 290px;
-  background-image: url("images/Mike.jpeg");
+  background-image: url('images/Mike.jpeg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-5 .u-text-5 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 14px 30px 0;
 }
 
 .u-section-5 .u-text-6 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 16px auto 0;
 }
 
 .u-section-5 .u-text-7 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 30px;
 }
 
 .u-section-5 .u-text-8 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 14px 0;
 }
@@ -1171,34 +1188,34 @@
 .u-section-5 .u-image-7 {
   width: 290px;
   height: 290px;
-  background-image: url("images/HeadShot2-MichelleGyenes1.jpeg");
+  background-image: url('images/Michelle.jpeg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-5 .u-text-9 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 14px 30px 0;
 }
 
 .u-section-5 .u-text-10 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 16px auto 0;
 }
 
 .u-section-5 .u-text-11 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 30px;
 }
 
 .u-section-5 .u-text-12 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 9px 14px 0;
 }
@@ -1305,7 +1322,8 @@
   .u-section-5 .u-repeater-1 {
     grid-template-columns: 100%;
   }
-}.u-section-6 .u-sheet-1 {
+}
+.u-section-6 .util-sheet {
   min-height: 675px;
 }
 
@@ -1315,7 +1333,9 @@
 }
 
 .u-section-6 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-template-columns:
+    calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+    calc(33.3333% - 6.66667px);
   grid-gap: 10px 10px;
   min-height: 542px;
 }
@@ -1332,34 +1352,34 @@
 .u-section-6 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/PrachiRayHeadshot-PrachiRay.jpeg");
+  background-image: url('images/PrachiRayHeadshot-PrachiRay.jpeg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
 }
 
 .u-section-6 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 19px 19px 0;
 }
 
 .u-section-6 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 11px auto 0;
 }
 
 .u-section-6 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 16px;
 }
 
 .u-section-6 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 17px 1px 0;
 }
@@ -1394,34 +1414,34 @@
 .u-section-6 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url("images/1594086284129.jfif");
+  background-image: url('images/1594086284129.jfif');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
 }
 
 .u-section-6 .u-text-5 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 19px 19px 0;
 }
 
 .u-section-6 .u-text-6 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 11px auto 0;
 }
 
 .u-section-6 .u-text-7 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 16px;
 }
 
 .u-section-6 .u-text-8 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 17px 1px 0;
 }
@@ -1456,34 +1476,34 @@
 .u-section-6 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url("images/received_2266936333530497-SanaAhsan.png");
+  background-image: url('images/received_2266936333530497-SanaAhsan.png');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
 }
 
 .u-section-6 .u-text-9 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 19px 19px 0;
 }
 
 .u-section-6 .u-text-10 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: 11px auto 0;
 }
 
 .u-section-6 .u-text-11 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 0 16px;
 }
 
 .u-section-6 .u-text-12 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 17px 1px 0;
 }
@@ -1638,7 +1658,8 @@
   .u-section-6 .u-image-12 {
     margin-left: 86px;
   }
-}.u-section-7 .u-sheet-1 {
+}
+.u-section-7 .util-sheet {
   min-height: 592px;
 }
 
@@ -1661,34 +1682,34 @@
 .u-section-7 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/TVanBakel-TamaraVanBakel.jpg");
+  background-image: url('images/Tam.jpg');
   background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
 }
 
 .u-section-7 .u-text-1 {
   font-size: 1.5rem;
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   line-height: 0.8;
   margin: 20px 19px 0;
 }
 
 .u-section-7 .u-text-2 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-size: 0.875rem;
   margin: 35px 16px 0;
 }
 
 .u-section-7 .u-text-3 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: 700;
   width: 271px;
   margin: -42px auto 0;
 }
 
 .u-section-7 .u-text-4 {
-  font-family: "Crete Round";
+  font-family: 'Crete Round';
   font-weight: normal;
   margin: 28px 378px 0 400px;
 }
@@ -1707,7 +1728,9 @@
 
 @media (max-width: 1199px) {
   .u-section-7 .u-repeater-1 {
-    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    grid-template-columns:
+      calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px)
+      calc(33.3333% - 6.66667px);
   }
 
   .u-section-7 .u-image-1 {
@@ -1821,3 +1844,13 @@
     margin-right: 279px;
   }
 }
+
+/* 
+.u-section-5 .u-image-5 {
+  width: 290px;
+  height: 290px;
+  background-image: url("images/Jason-JasonMoggridge.jpg");
+  background-position: 50% 50%;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 0 auto;
+} */
