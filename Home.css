@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)
     ),
-    url('images/blue_with_white_dots.jpg');
+    url('images/stock/blue_with_white_dots.jpg');
   background-position: 50% 50%;
 }
 
@@ -307,7 +307,7 @@
   }
 }
 .u-section-4 {
-  background-image: url('images/istockphoto-840814430-640x640.jpg');
+  background-image: url('images/stock_computer.jpg');
   background-position: 50% 50%;
 }
 

@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)
     ),
-    url('images/team-photo.jpeg');
+    url('images/banner/team-photo.jpeg');
   background-position: 50% 50%;
 }
 
@@ -93,7 +93,7 @@
 .u-section-2 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Afsaneh.jpg');
+  background-image: url('images/team/Afsaneh.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -149,7 +149,7 @@
 .u-section-2 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Ashley.jpg');
+  background-image: url('images/team/Ashley.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -205,7 +205,7 @@
 .u-section-2 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url('images/1651434802577.jfif');
+  background-image: url('images/team/Bena.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -408,7 +408,7 @@
 .u-section-3 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Emily.jpg');
+  background-image: url('images/team/Emily.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -464,7 +464,7 @@
 .u-section-3 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Hania.jpg');
+  background-image: url('images/team/Hania.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -520,7 +520,7 @@
 .u-section-3 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url('images/HK-Headshot-HannaKe.png');
+  background-image: url('images/team/Hanna.png');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -728,7 +728,7 @@
 .u-section-4 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/profile-JackN.png');
+  background-image: url('images/team/Jack.png');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -790,7 +790,7 @@
 .u-section-4 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Jason-JasonMoggridge.jpg');
+  background-image: url('images/team/Jason.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -852,7 +852,7 @@
 .u-section-4 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url('images/john2.1copy-JohnLapp.png');
+  background-image: url('images/team/John.png');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -1076,7 +1076,7 @@
 .u-section-5 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/MikeColacci_2021Mar_MR-9546.jpg');
+  background-image: url('images/team/MikeColacci.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -1132,7 +1132,7 @@
 .u-section-5 .u-image-4 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Mike.jpeg');
+  background-image: url('images/team/Mike.jpeg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -1188,7 +1188,7 @@
 .u-section-5 .u-image-7 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Michelle.jpeg');
+  background-image: url('images/team/Michelle.jpeg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -1352,7 +1352,7 @@
 .u-section-6 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/PrachiRayHeadshot-PrachiRay.jpeg');
+  background-image: url('images/team/Prachi.jpeg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
@@ -1414,7 +1414,7 @@
 .u-section-6 .u-image-5 {
   width: 290px;
   height: 290px;
-  background-image: url('images/1594086284129.jfif');
+  background-image: url('images/team/Rubaina.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
@@ -1476,7 +1476,7 @@
 .u-section-6 .u-image-9 {
   width: 290px;
   height: 290px;
-  background-image: url('images/received_2266936333530497-SanaAhsan.png');
+  background-image: url('images/team/Sana.png');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 3px auto 0;
@@ -1682,7 +1682,7 @@
 .u-section-7 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url('images/Tam.jpg');
+  background-image: url('images/team/Tam.jpg');
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   margin: 0 auto;
@@ -1844,13 +1844,3 @@
     margin-right: 279px;
   }
 }
-
-/* 
-.u-section-5 .u-image-5 {
-  width: 290px;
-  height: 290px;
-  background-image: url("images/Jason-JasonMoggridge.jpg");
-  background-position: 50% 50%;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: 0 auto;
-} */
