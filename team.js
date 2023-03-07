@@ -1,3 +1,5 @@
+console.log('starting team.js script');
+
 // creates an icon of a given type for a given url; relies on icon image files!!
 const CurriedIcon = (type) => {
   const icon = `<img
@@ -58,7 +60,9 @@ let usersContainer = document.getElementById('team-container');
 
 //* Gets data, makes cards, adds to team page; script runs in team.html file
 // read data from file
-fetch('/public/team.json')
+fetch(
+  'https://raw.githubusercontent.com/MichaelFralickLab/MichaelFralickLab.github.io/main/public/team.json'
+)
   // wait for read to finish, then parse the file
   .then((response) => response.json())
   .then((data) => {
@@ -70,3 +74,5 @@ fetch('/public/team.json')
     usersContainer.innerHTML = cards;
     return;
   });
+
+console.log('finished team.js script');
