@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Afsaneh Raissi",
+    "pronouns": "she/her",
+    "position": "Project Manager",
+    "education": "BSc (YorkU) , BSc (IAUCTB)",
+    "aspirations": "I hope that the projects that I work on will positively impact patient care.",
+    "social": {
+      "researchgate": "https://www.researchgate.net/profile/Afsaneh-Raissi"
+    },
+    "image": "Afsaneh.jpg"
+  },
+  {
+    "name": "Ashley Raudanskis",
+    "pronouns": "she/her",
+    "position": "Project Manager / Research Coordinator",
+    "education": "BSc (Guelph),  MD Candidate (Queen's)",
+    "aspirations": "I want to be a leader for women in STEM as a practicing physician and researcher, and one day (not soon...) a mother, too!",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ashley-raudanskis-bsch-935b4214a/"
+    },
+    "image": "Ashley.jpg"
+  },
+  {
+    "name": "Benazir Hodzic-Santor ",
+    "pronouns": "she/her",
+    "position": "Research Assistant",
+    "education": "BA(McGill), MD Candidate (UofT)",
+    "aspirations": "Working towards finishing my MD and working as a clinician scientist.",
+    "social": {
+      "twitter": "https://twitter.com/bena_hs",
+      "linkedin": "https://www.linkedin.com/in/benazir-hodzic-santor-466522187/?originalSubdomain=ca",
+      "researchgate": "https://www.researchgate.net/profile/Benazir-Hodzic-Santor"
+    },
+    "image": "Bena.jpg"
+  },
+  {
+    "name": "Emily Hughes",
+    "pronouns": "she/her",
+    "position": "Resident MD",
+    "education": "HBSc (Queen's), MD (UofT),  PGY-4 (UofT and WCH)",
+    "aspirations": "My career goal is to be an academic General Internist.",
+    "social": {
+      "researchgate": "https://www.researchgate.net/profile/Emily-Hughes-16"
+    },
+    "image": "Emily.jpg"
+  },
+  {
+    "name": "Hania Siddiqui",
+    "pronouns": "she/her",
+    "position": "Research Volunteer",
+    "education": "HBSc Candidate (UofT)",
+    "aspirations": "To work in healthcare and conduct research in the future.",
+    "social": {
+      "researchgate": "https://www.researchgate.net/profile/Emily-Hughes-16"
+    },
+    "image": "Hania.jpg"
+  },
+
+  {
+    "name": "Hanna Ke",
+    "pronouns": "she/her",
+    "position": "Research Student",
+    "education": "HBA/BMSc Dual Degree Candidate (Western)",
+    "aspirations": "I aspire to eventually pursue a career in the sciences, hopefully in medicine.",
+    "social": {
+      "researchgate": "https://www.linkedin.com/in/hannake/"
+    },
+    "image": "Hanna.png"
+  },
+  {
+    "name": "Jack Naimer",
+    "pronouns": "he/him",
+    "position": "Research Student",
+    "education": "BASc Candidate (UofT)",
+    "aspirations": "Applying AI to improve people's lives.",
+    "social": {
+      "website": "https://jacknaimer.com/",
+      "linkedin": "https://www.linkedin.com/in/jack-naimer-490129181/",
+      "twitter": "https://twitter.com/JackNaimer"
+    },
+    "image": "Jack.png"
+  },
+  {
+    "name": "Jason Moggridge",
+    "pronouns": "he/him",
+    "position": "Research Assistant",
+    "education": "MS (Guelph), BSc (Carleton)",
+    "aspirations": "I hope to make meaningful contributions to science and to collaborate with others in their quest to do the same.",
+    "social": {
+      "researchgate": "https://www.researchgate.net/profile/Jason-Moggridge",
+      "github": "https://github.com/jmoggridge"
+    },
+    "image": "Jason.jpg"
+  },
+  {
+    "name": "John Lapp",
+    "pronouns": "he/him",
+    "position": "Research Assistant",
+    "education": "BPHE (Queen's), MPH (Queen's), MD Candidate (NOSM)",
+    "aspirations": "To do work that I'm proud of with people I admire.",
+    "social": {
+      "twitter": "https://twitter.com/johnlapp_"
+    },
+    "image": "John.png"
+  },
+  {
+    "name": "Michael Colacci",
+    "pronouns": "he/him",
+    "position": "MSc Student",
+    "education": "BSc (UofT), MD (NWU)",
+    "aspirations": "My interest is in studying and improving inpatient care within internal medicine.",
+    "social": {
+      "twitter": "https://twitter.com/mikecolacci"
+    },
+    "image": "MikeColacci.jpg"
+  },
+  {
+    "name": "Michael Fralick",
+    "pronouns": "he/him",
+    "position": "Principal Investigator",
+    "education": "MD (UofT), PHD (UofT), MS (Harvard), FRCPC (UofT)",
+    "aspirations": "To retire by age 50 to hone my barista skills, golf skills, and take lots of vacations.",
+    "social": {
+      "twitter": "https://twitter.com/FralickMike"
+    },
+    "image": "Mike.jpeg"
+  },
+  {
+    "name": "Michelle Gyenes",
+    "pronouns": "she/her",
+    "position": "Research Student",
+    "education": "MD (UofT), MSc (CU)",
+    "aspirations": "I am an incoming PGY1 Neurology resident, and am really looking forward to starting my training!",
+    "image": "Michelle.jpeg"
+  },
+  {
+    "name": "Prachi Ray",
+    "pronouns": "she/her",
+    "position": "Research Assistant",
+    "education": "HBSc (UofT)",
+    "aspirations": "Pursuing a career in medicine/research.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/prachiray/"
+    },
+    "image": "Prachi.jpeg"
+  },
+  {
+    "name": "Sana Ahsan",
+    "pronouns": "she/her",
+    "position": "Research Student",
+    "education": "HBSc(UofT), MPH Candidate (Queen's)",
+    "aspirations": "I hope to develop a public health tool or program that supports women in marginalized communities in Ontario.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/s-ahsan/"
+    },
+    "image": "Sana.png"
+  },
+  {
+    "name": "Tamara Van Bakel",
+    "pronouns": "she/her",
+    "position": "Project Manager",
+    "education": "BAH (Queen's)",
+    "aspirations": "I'd like to write a book one day.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/tvanbakel/"
+    },
+    "image": "Tam.jpg"
+  }
+]
