@@ -307,7 +307,7 @@
   }
 }
 .u-section-4 {
-  background-image: url('images/stock_computer.jpg');
+  background-image: url('images/stock/stock_computer.jpg');
   background-position: 50% 50%;
 }
 
@@ -411,6 +411,4 @@
   .u-section-4 .u-btn-2 {
     margin-right: 0;
   }
-}
-.background_image {
 }
